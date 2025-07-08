@@ -13,16 +13,17 @@
   font-style: normal;
 }
 *{
-    margin: 0px;
+    margin: 12px;
     padding: 0px;
 }
 
 .head{
-    background-image:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('../images/Banner\ Image.png');
+    background-image:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('../images/Banner Image.png');
     background-position: center;
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
+    border-radius: 2px;
 
 }
 .sub-title{
@@ -43,9 +44,27 @@
     padding-bottom: 177px;
 }
 /* offer section */
+/* section- 1 */
+.offer{
+    /* this will must be margin from the top */
+    margin-top: 120px;
+}
 .offer-detail{
     text-align: center;
     font-size: 88px;
-    font-weight: bold;
+    font-weight: 700;
     color: rgba(255, 0, 0, 1);
+}
+.our-offer{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 48px;
+    text-align: center;
+}
+.all-categories{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #070211;
+    padding-bottom: 48px;
 }
