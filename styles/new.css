@@ -24,6 +24,7 @@
     width: 1320px;
     height: 600px;
     border-radius: 2px;
+    margin: 0 auto;
 
 }
 .sub-title{
@@ -67,4 +68,50 @@
     text-align: center;
     color: #070211;
     padding-bottom: 48px;
+}
+
+/* section-2 */
+.mid-night{
+    /* from the right side that's why use to right */
+    background-image: linear-gradient( to right, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.mid-night-container{
+    display: flex;
+    gap: 39.17px;
+    justify-content: space-between;
+}
+
+.mid-night-title{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    color: white;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+.mid-night-dis{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    padding-left: 126px;
+}
+.mid-night-join{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 158px;
+    padding-top: 48px;
+    color: white;
+
+}
+.mid-night-image{
+    padding-top: 68.11px;
+    padding-bottom: 67.23px;
+    padding-right: 108.67px;
 }
