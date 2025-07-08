@@ -1,1 +1,41 @@
-/* Styles */
+/* Font style */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.head{
+    background-image:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+
+}
+
+
+header div h6{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    padding-top: 177px;
+    
+    
+}
+header div h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 177px;
+}
